@@ -7,28 +7,13 @@
  **/
 package com.yins.week_01.task01;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class Hello {
     public static void main(String[] args) {
-        int sum1 = 3;
-        int sum2 = 2;
-        int count = 0 ;
-        count = add(sum1,sum2);
-        System.out.println("sum1 + sum2 = "+count);
-        count = sub(sum1,sum2);
-        System.out.println("sum1 - sum2 = "+count);
-        count = mul(sum1,sum2);
-        System.out.println("sum1 * sum2 = "+count);
-        count = div(sum1,sum2);
-        System.out.println("sum1 % sum2 = "+count);
-        for(int i = 0;i<10;i++){
-            sum1++;
-            System.out.println(sum1);
-        }
-        if(sum1>10){
-            System.out.println("sum1 > 10");
-        }else{
-            System.out.println("sum1 <= 10");
-        }
+        System.out.println((byte)202);
     }
     /**
      *
