@@ -128,38 +128,38 @@ descriptor  代表方法的描述符（指向常量池）
 |F|float|
 |I|int|
 |J|long|
-|||
-|SshortZ|boolean|
+|S|short|
+|Z|boolean|
 |V|void|
-|||
-|L对象类型，如Ljava/lang/Object;[|数组类型，如 [Ljava/lang/String;|
+|L|对象类型，如Ljava/lang/Object;|
+|[|数组类型，如 [Ljava/lang/String;|
 
 7、methods（方法表集合）
 
-||||
+|类型|名称|数量|
 |-----|-----|-----|
-||||
-||||
-||||
-||||
-||||
+|u2|access_flags|1|
+|u2|name_index|1|
+|u2|descriptor_index|1|
+|u2|attributes_count|1|
+|attribute_info|attributes|attributes_count|
 
-||||
+|名称|值|含义|
 |-----|-----|-----|
-||||
-||||
-||||
-||||
-||||
-|名称值含义ACC_PUBLIC0x0001publicACC_PRIVATE0x0002privateACC_PROTECTED0x0004protectedACC_STATIC0x0008staticACC_FIANL0x0010finalACC_SYNCHRONIZED|0x0020|synchronized|
-|||ACC_BRIDGE0x0040是否由编译器自动生成桥接方法|
-|||ACC_VARARGS0x0080方法是否接受不定参数|
-|ACC_NATIVE||0x0100native|
-|ACC_ABSTRACT|||
-|0x0400abstractACC_STRICT||0x0800strictfp|
-||||
+|ACC_PUBLIC|0x0001|public|
+|ACC_PRIVATE|0x0002|private|
+|ACC_PROTECTED|0x0004|protected|
+|ACC_STATIC|0x0008|static|
+|ACC_FIANL|0x0010|final|
+|ACC_SYNCHRONIZED|0x0020|synchronized|
+|ACC_BRIDGE|0x0040|是否由编译器自动生成桥接方法|
+|ACC_VARARGS|0x0080|方法是否接受不定参数|
+|ACC_NATIVE|0x0100|native|
+|ACC_ABSTRACT|0x0400|abstract|
+|ACC_STRICT|0x0800|strictfp|
+|ACC_SYNTHETIC|0x1000|是否由编译器自动生成|
 
-ACC_SYNTHETIC0x1000是否由编译器自动生成8、attributes（属性表集合）
+8、attributes（属性表集合）
 
 |名称|使用位置|含义|
 |-----|-----|-----|
