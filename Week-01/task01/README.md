@@ -8,24 +8,24 @@ class文件中存在以下数据项(该图表参考自《深入Java虚拟机》)
 
 u4代表4个8bit、u2代表2个8bit、其他以info结尾类型为特殊类型
 
-	|类型|名称|数量|
-	|:----:|:----|:----:|:----|:----:|:----|
-	|u4|magic|1|
-	|u2|minor_version|1|
-	|u2|major_version|1|
-	|u2|constant_pool_count|1|
-	|cp_info|constant_pool|constant_pool_count-1|
-	|u2|access_flags|1|
-	|u2|this_class|1|
-	|u2|super_class|1|
-	|u2|interfaces_count|1|
-	|u2|interfaces|interfaces_count|
-	|u2|fileds_count|1|
-	|field_info|fields|fields_count|
-	|u2|methods_count|1|
-	|method_info|methods|methods_count|
-	|u2|attribute_count|1|
-	|attribute_info|attributes|attributes_count|
+| 类型 | 名称 | 数量 |
+| :----: | :---- | :----: | :---- | :----: | :---- |
+| u4 | magic | 1 |
+| u2 | minor_version | 1 |
+| u2 | major_version | 1 |
+| u2 | constant_pool_count | 1 |
+| cp_info | constant_pool | constant_pool_count-1 |
+| u2 | access_flags | 1 |
+| u2 | this_class | 1 |
+| u2 | super_class | 1 |
+| u2 | interfaces_count | 1 |
+| u2 | interfaces | interfaces_count |
+| u2 | fileds_count | 1 |
+| field_info | fields | fields_count |
+| u2 | methods_count | 1 |
+| method_info | methods | methods_count |
+| u2 | attribute_count | 1 |
+| attribute_info | attributes | attributes_count |
 
 1、魔法数：0XCAFEBABE
 
@@ -37,35 +37,35 @@ u4代表4个8bit、u2代表2个8bit、其他以info结尾类型为特殊类型
 
 常量池中主要存放两大类常量：字面量和符号引用。字面量：文本字符串、被声明为final的常量值等。符号引用：1、类和接口的全限定名，2、字段的名称和描述符，3、方法的名称和描述符。
 
-	|常量池中数据项类型|名称|类型|类型描述|
-	|:----:|:----|:----:|:----|:----:|:----|:----:|:----|
-	|CONSTANT_Utf8_info|tag|u1|值为1|
-	|    |length|u2|UTF-8编码的Unicode字符串长度|
-	|    |bytes|u1|字符串|
-	|CONSTANT_Integer_info|tag|u1|值为3|
-	|    |bytes|u4|int类型字面值|
-	|CONSTANT_Float_info|tag|u1|值为4|
-	|    |bytes|u4|float类型字面值|
-	|CONSTANT_Long_info|tag|u1|值为5|
-	|    |bytes|u8|long类型字面值|
-	|CONSTANT_Double_info|tag|u1|值为6|
-	|    |bytes|u8|double类型字面值|
-	|CONSTANT_Class_info|tag|u1|值为7|
-	|    |index|u2|指向全限定名常量项的索引|
-	|CONSTANT_String_info|tag|u1|值为8|
-	|    |index|u2|指向字符串字面量的索引|
-	|CONSTANT_Fieldref_info|tag|u1|值为9|
-	|    |index|u2|指向CONSTANT_Class_info的索引|
-	|    |index|u2|指向CONSTANT_NameAndType_info的索引|
-	|CONSTANT_Methodref_info|tag|u1|值为10|
-	|    |index|u2|指向CONSTANT_Class_info的索引|
-	|    |index|u2|指向CONSTANT_NameAndType_info的索引|
-	|CONSTANT_InterfaceMothdref_info|tag|u1|值为11|
-	|    |index|u2|指向CONSTANT_Class_info的索引|
-	|    |index|u2|指向CONSTANT_NameAndType_info的索引|
-	|CONSTANT_NameAndType_info|tag|u1|值为12|
-	|    |index|u2|指向该字段或方法名称常量项的索引|
-	|    |index|u2|指向该字段或方法描述符常量项的索引|
+| 常量池中数据项类型 | 名称 | 类型 | 类型描述 |
+| :----: | :---- | :----: | :---- | :----: | :---- | :----: | :---- |
+| CONSTANT_Utf8_info | tag | u1 | 值为1 |
+|    | length | u2 | UTF-8编码的Unicode字符串长度 |
+|    | bytes | u1 | 字符串 |
+| CONSTANT_Integer_info |tag | u1 | 值为3 |
+|    | bytes | u4 | int类型字面值 |
+| CONSTANT_Float_info | tag | u1 | 值为4 |
+|    | bytes | u4 | float类型字面值 |
+| CONSTANT_Long_info | tag | u1 | 值为5 |
+|    | bytes | u8 | long类型字面值 |
+| CONSTANT_Double_info | tag | u1 | 值为6 |
+|    | bytes | u8 | double类型字面值 |
+| CONSTANT_Class_info | tag | u1 | 值为7 |
+|    | index | u2 | 指向全限定名常量项的索引 |
+| CONSTANT_String_info | tag | u1 | 值为8 |
+|    | index | u2 | 指向字符串字面量的索引 |
+| CONSTANT_Fieldref_info | tag | u1 | 值为9 |
+|    | index | u2 | 指向CONSTANT_Class_info的索引 |
+|    | index | u2 | 指向CONSTANT_NameAndType_info的索引 |
+| CONSTANT_Methodref_info | tag | u1 | 值为10 |
+|    | index | u2 | 指向CONSTANT_Class_info的索引 |
+|    | index | u2 | 指向CONSTANT_NameAndType_info的索引 |
+| CONSTANT_InterfaceMothdref_info | tag | u1 | 值为11 |
+|    | index | u2 | 指向CONSTANT_Class_info的索引 |
+|    | index | u2 | 指向CONSTANT_NameAndType_info的索引 |
+| CONSTANT_NameAndType_info | tag | u1 | 值为12 |
+|    | index | u2 | 指向该字段或方法名称常量项的索引 |
+|    | index | u2 | 指向该字段或方法描述符常量项的索引 |
 
 0x0A转为10，对应CONSTANT_Methodref_info，0x15、0x25分别指向CONSTANT_Class_info，CONSTANT_NameAndType_info
 
