@@ -5,7 +5,7 @@
  * @Date 2021-3-16
  * @Version 1.0
  **/
-package com.yins.test;
+package com.yins.test.week01;
 
 import java.util.Base64;
 
