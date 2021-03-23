@@ -9,7 +9,6 @@ package com.yins.test.week02;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class KeylessEntry {
     static class Key {
@@ -42,7 +41,7 @@ public class KeylessEntry {
                     m.put(new Key(i), "Number:" + i);
                 }
             }
-            System.out.println("m.sizze()=" + m.size());
+            System.out.println("m.size()=" + m.size());
         }
     }
 }
