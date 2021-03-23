@@ -10,6 +10,8 @@ DirectMemory ： 堆外内存大小
 
 Xss  ：为jvm启动的每个线程分配的栈内存大小
 
-![图片](https://uploader.shimo.im/f/7sxh3VETNr1pDxY7.png!thumbnail?fileGuid=rWycdtRvVjPC6HVc)
+![图片](https://uploader.shimo.im/f/pQgjXtO9MiMbWijU.png!thumbnail?fileGuid=rWycdtRvVjPC6HVc)
+
+
 
 
