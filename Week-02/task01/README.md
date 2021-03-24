@@ -8,7 +8,7 @@ CommandLine flags: -XX:InitialHeapSize=134217728 -XX:MaxHeapSize=134217728 -XX:+
 
 2021-03-23T10:42:32.350+0800: 0.118: [GC (Allocation Failure) 2021-03-23T10:42:32.350+0800: 0.118: [DefNew: 34522K->4352K(39296K), 0.0068348 secs] 34522K->11742K(126720K), 0.0070316 secs] [Times: user=0.00 sys=0.00, real=0.01 secs]
 
-**GC (Allocation Failure):**无法在堆上分配对象导致GC
+**GC (Allocation Failure):** 无法在堆上分配对象导致GC
 
 **[DefNew: 34522K->4352K(39296K), 0.0068348 secs] ：** DefNew代表年轻代GC（YGC），从34522K->4352K，年轻代堆内存回收了34522-4352=30170
 
@@ -20,9 +20,9 @@ CommandLine flags: -XX:InitialHeapSize=134217728 -XX:MaxHeapSize=134217728 -XX:+
 
 2021-03-23T10:42:32.457+0800: 0.225: [GC (Allocation Failure) 2021-03-23T10:42:32.457+0800: 0.225: [DefNew: 39292K->39292K(39296K), 0.0000125 secs]2021-03-23T10:42:32.457+0800: 0.225: [Tenured: 82919K->38285K(87424K), 0.0068661 secs] 122211K->38285K(126720K), [Metaspace: 2837K->2837K(1056768K)], 0.0069479 secs] [Times: user=0.00 sys=0.00, real=0.01 secs]
 
-**[Tenured: 82919K->38285K(87424K), 0.0068661 secs]  ：**Tenured代表老年代GC（FGC）**，**82919K->38285K：老年代堆内存回收了82919-38285=44634
+**[Tenured: 82919K->38285K(87424K), 0.0068661 secs]  ：** Tenured代表老年代GC（FGC），82919K->38285K：老年代堆内存回收了82919-38285=44634
 
-**122211K->38285K(126720K):**代表整个堆内存回收了：122211-38285=83926,说明年轻代回收了83926-44634=39292，清空了年轻代
+**122211K->38285K(126720K):** 代表整个堆内存回收了：122211-38285=83926,说明年轻代回收了83926-44634=39292，清空了年轻代
 
 ......
 
@@ -104,27 +104,27 @@ CommandLine flags: -XX:InitialHeapSize=134217728 -XX:MaxHeapSize=134217728 -XX:M
 
 **CMS-initial-mark：**（STW）初始标记、只标记GC Root能直接关联的对象
 
-**CMS-concurrent-mark：**并发标记，跟运行线程同时进行，进行GC Roots Tracing
+**CMS-concurrent-mark：** 并发标记，跟运行线程同时进行，进行GC Roots Tracing
 
 **CMS-concurrent-preclean**：并发预清理，记录并发标记阶段，发生改变的对象
 
-**CMS-concurrent-abortable-preclean：**可取消的并发预清理，尝试在Final Remark之前多做一些工作
+**CMS-concurrent-abortable-preclean：** 可取消的并发预清理，尝试在Final Remark之前多做一些工作
 
 **Final Remark：**（STW）最终标记，将修正并发标记中发生变动的对象引用
 
-**[Rescan (parallel) , 0.0000964 secs]：**重新扫描
+**[Rescan (parallel) , 0.0000964 secs]：** 重新扫描
 
-**[weak refs processing, 0.0000074 secs]：**处理弱引用
+**[weak refs processing, 0.0000074 secs]：** 处理弱引用
 
-**[class unloading, 0.0002544 secs]：**卸载类
+**[class unloading, 0.0002544 secs]：** 卸载类
 
-**[scrub symbol table, 0.0003082 secs]：**处理符号表
+**[scrub symbol table, 0.0003082 secs]：** 处理符号表
 
-**[scrub string table, 0.0000816 secs]：**清理内联字符串对应的string tables
+**[scrub string table, 0.0000816 secs]：** 清理内联字符串对应的string tables
 
-**CMS-concurrent-sweep：**并发清理不再使用的对象
+**CMS-concurrent-sweep：** 并发清理不再使用的对象
 
-**CMS-concurrent-reset：**并发重置
+**CMS-concurrent-reset：** 并发重置
 
 ```plain
 java -Xms128m -Xmx128m -XX:+UseG1GC -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:gc.demo4.log com.yins.test.week02.GCLogAnalysis
@@ -194,7 +194,7 @@ CommandLine flags: -XX:InitialHeapSize=134217728 -XX:MaxHeapSize=134217728 -XX:+
 
 0.0097719 秒 ，也就是 9.7ms 。
 
-**[Parallel Time: 9.6 ms, GC Workers: 4]******– 表明后面的活动由8个 Worker 线程并行执
+**[Parallel Time: 9.6 ms, GC Workers: 4]**– 表明后面的活动由8个 Worker 线程并行执
 
 行，消耗时间为9.6毫秒(real time)
 
