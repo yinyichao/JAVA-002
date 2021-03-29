@@ -51,7 +51,7 @@ public class OKHttpTest {
                 .build();
         Request.Builder requestBuilder = new Request.Builder();
         //配置url
-        requestBuilder.url("http://192.168.199.167:8801");
+        requestBuilder.url("http://127.0.0.1:8808/test");
         //配置请求方式
         requestBuilder.get();
         try {
