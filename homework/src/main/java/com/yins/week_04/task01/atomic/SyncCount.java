@@ -7,12 +7,10 @@
  **/
 package com.yins.week_04.task01.atomic;
 
-import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class SyncCount {
-    Runnable
     private int num = 0;
     private Lock lock = new ReentrantLock(true);
 
