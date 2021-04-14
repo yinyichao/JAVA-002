@@ -5,7 +5,7 @@
  * @Date 2021-4-13
  * @Version 1.0
  **/
-package com.yins.week_03.task01.threadpool;
+package com.yins.week_04.task01.threadpool;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;

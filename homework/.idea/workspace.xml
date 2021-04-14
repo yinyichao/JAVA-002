@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5ebfa49-310a-43a6-aa3c-2ee00a6ed3b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/test/week04/SynchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/ConditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/Count2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/Count3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/LockMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/LockSupportDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/ObjectCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/ReentrantReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/ReentrantReadWriteLockDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/TestFair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/ThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/ThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/threadpool/NewCachedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/threadpool/NewFixedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/threadpool/NewScheduledThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/threadpool/NewSingleThreadExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task02/FutureTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task02/ThreadJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task02/ThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yins/week_03/task01/threadpool/ExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/threadpool/ExceptionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yins/week_03/task01/threadpool/ExecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/threadpool/ExecutorServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yins/week_03/task01/threadpool/NewCachedThreadPoolDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yins/week_03/task01/threadpool/ExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yins/week_03/task01/threadpool/ExecutorServiceDemo.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.3.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1puUWObyzOZlanWJQTpQcfHue5h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaCourseCodes/03concurrency/0301" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.61609197" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.SynchronousQueueDemo">
+    <configuration name="FutureTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yins.week_04.task02.FutureTaskDemo" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yins.week_04.task02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantReadWriteLockDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yins.week_04.task01.lock.ReentrantReadWriteLockDemo2" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yins.week_04.task01.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yins.test.week04.SynchronousQueueDemo" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yins.test.week04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yins.week_04.task02.ThreadJoin" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yins.week_04.task02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPoolExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yins.week_04.task02.ThreadPoolExecutor" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yins.week_04.task02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SynchronousQueueDemo" />
+        <item itemvalue="Application.ThreadPoolExecutor" />
+        <item itemvalue="Application.FutureTaskDemo" />
+        <item itemvalue="Application.ThreadJoin" />
+        <item itemvalue="Application.ReentrantReadWriteLockDemo2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5ebfa49-310a-43a6-aa3c-2ee00a6ed3b4" name="Default Changelist" comment="" />
+      <created>1616032501203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616032501203</updated>
+      <workItem from="1616032502231" duration="17460000" />
+      <workItem from="1616998091784" duration="54000" />
+      <workItem from="1618276238730" duration="20394000" />
+      <workItem from="1618391879966" duration="2491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616045880988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616045880988" />
+    <state x="1036" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1618387300058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1036" y="294" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618387300058" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618277861525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618277861525" />
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1618393140225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618393140225" />
+    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1618393140225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618393140225" />
+    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1618393140225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618393140225" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1618393140225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618393140225" />
+    <state width="1877" height="300" key="GridCell.Tab.1.bottom" timestamp="1618387598668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618387598668" />
+    <state width="1877" height="300" key="GridCell.Tab.1.center" timestamp="1618387598668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618387598668" />
+    <state width="1877" height="300" key="GridCell.Tab.1.left" timestamp="1618387598668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618387598668" />
+    <state width="1877" height="300" key="GridCell.Tab.1.right" timestamp="1618387598668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618387598668" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1618391793806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618391793806" />
+    <state x="657" y="450" width="1148" height="320" key="dock-window-1" timestamp="1618278086227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="450" width="1148" height="320" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1618278086227" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yins/week_01/task02/HelloClassLoader.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/Count3.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/Count3.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yins/week_04/task01/lock/LockSupportDemo.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
