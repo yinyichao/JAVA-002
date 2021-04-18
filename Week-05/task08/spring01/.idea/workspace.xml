@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="37bd3115-dadb-4ecf-81a8-b3330c0b958d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/MsgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INFO/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/CollectionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/GuavaDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/LombokDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/StreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/http/HttpServer01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/http/HttpServer02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring01/http/HttpServer03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/Aop1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/Aop2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/HelloBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/Klass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/Klass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/spring02/SpringDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/springjms/JmsListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/springjms/JmsReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/springjms/JmsSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/kimmking/springjms/SendService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springjms-receiver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springjms-sender.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Spring02Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Sprint01Test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1rLLRt1U6rVIeLffkWxfG0DS1J0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\jeektime\JavaCourseCodes\04fx\spring01\src\main\resources\META-INFO" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37bd3115-dadb-4ecf-81a8-b3330c0b958d" name="Default Changelist" comment="" />
+      <created>1618750419625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618750419625</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618754439280">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1618754439280" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1618755572888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1618755572888" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618754990135">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1618754990135" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1618750446854">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618750446854" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1618750448589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618750448589" />
+  </component>
+</project>

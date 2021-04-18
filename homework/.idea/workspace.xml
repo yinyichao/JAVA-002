@@ -3,9 +3,42 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a5ebfa49-310a-43a6-aa3c-2ee00a6ed3b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_05/task02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_05/task02/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_05/task10/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_05/task10/Hikari/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_05/task10/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_05/task10/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_05/task10/transaction/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week-05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Week-05/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week-05/task02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Week-05/task02/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task02/FutureTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yins/week_04/task02/FutureTaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yins/week_04/task02/FutureTaskDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yins/week_04/task02/FutureTaskDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yins/week_04/task02/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yins/week_04/task02/Task.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +61,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:\IntelliJ IDEA Educational Edition 2020.2.2\plugins\maven\lib\maven3" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.3.1\conf\settings.xml" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.2.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -51,15 +84,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaCourseCodes/04fx/spring01" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.61609197" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SynchronousQueueDemo">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\jeektime\JAVA-002\homework\src\resources" />
+      <recent name="D:\jeektime\JAVA-002\homework\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,19 +118,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yins.week_04.task02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantReadWriteLockDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yins.week_04.task01.lock.ReentrantReadWriteLockDemo2" />
-      <module name="homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yins.week_04.task01.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,13 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yins.week_05.task02.test" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yins.week_05.task02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.SynchronousQueueDemo" />
         <item itemvalue="Application.ThreadPoolExecutor" />
         <item itemvalue="Application.FutureTaskDemo" />
         <item itemvalue="Application.ThreadJoin" />
-        <item itemvalue="Application.ReentrantReadWriteLockDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +205,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
@@ -178,25 +228,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1036" y="294" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618387300058" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618277861525">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1618750414807">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618750414807" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618277861525" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1618393140225">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1618749946573">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618749946573" />
     <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618393140225" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1618393140225">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1618749946573">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618749946573" />
     <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618393140225" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1618393140225">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1618749946572">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618749946572" />
     <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618393140225" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1618393140225">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1618749946573">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618749946573" />
     <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618393140225" />
     <state width="1877" height="300" key="GridCell.Tab.1.bottom" timestamp="1618387598668">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -214,9 +269,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618387598668" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1618391793806">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="369" y="0" key="SettingsEditor" timestamp="1618748715325">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="369" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618748715325" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618391793806" />
     <state x="657" y="450" width="1148" height="320" key="dock-window-1" timestamp="1618278086227">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -14,7 +14,6 @@ import java.util.concurrent.*;
 public class FutureTaskDemo {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-        Collections
         long start=System.currentTimeMillis();
         // 在这里创建一个线程或线程池，
         // 异步执行 下面方法

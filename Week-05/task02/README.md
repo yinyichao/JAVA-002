@@ -1,16 +1,52 @@
-**Week03 作业题目：**
+```plain
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <bean id="student" class="com.yins.week_05.task02.Student"></bean>
+    <context:annotation-config></context:annotation-config>
+    <context:component-scan base-package="com.yins.week_05.task02"></context:component-scan>
+</beans>
+```
+1、读取xml配置bean，进行注入
 
-基础代码可以 fork： https://github.com/kimmking/JavaCourseCodes
-02nio/nio02 文件夹下实现以后，代码提交到 GitHub。
+```plain
+<bean id="student" class="com.yins.week_05.task02.Student"></bean>
+```
+读取注入代码
+```plain
+ApplicationContext ctx = new ClassPathXmlApplicationContext("bean.xml");
+Student student = (Student) ctx.getBean("student");
+student.setAge(11);
+student.setName("kim");
+student.setScore(99);
+System.out.println(student);
+```
 
-1.（必做）整合你上次作业的 httpclient/okhttp；
+2、开启注解，通过注解标签进行注入
 
-2.（选做）使用 netty 实现后端 http 访问（代替上一步骤）
-
-3.（必做）实现过滤器。
-
-4.（选做）实现路由。
-
-5.（选做）跑一跑课上的各个例子，加深对多线程的理解
-
-6.（选做）完善网关的例子，试着调整其中的线程池参数
+```plain
+<context:annotation-config></context:annotation-config>
+<context:component-scan base-package="com.yins.week_05.task02"></context:component-scan>
+```
+```plain
+@Data
+@Component("student1")
+public class Student {
+    private String name;
+    private int age;
+    private int score;
+}
+```
+读取注入代码
+```plain
+ApplicationContext ctx = new ClassPathXmlApplicationContext("bean.xml");
+Student student1 = (Student) ctx.getBean("student1");
+student1.setScore(100);
+student1.setAge(22);
+student1.setName("lisa");
+System.out.println(student1);
+```
